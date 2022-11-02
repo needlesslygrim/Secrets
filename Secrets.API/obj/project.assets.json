@@ -22,6 +22,15 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "MySqlConnector/2.2.0-rc.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -120,6 +129,33 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "MySqlConnector/2.2.0-rc.2": {
+      "sha512": "ZeGAmd5DbnCXHfAVI2uh3EQxPnvAH+5GO5uPjYwpVZiv2BBdCSG8X+pmg6D35aQ6ktfYJQ0s/lNIKy+zlLQRUg==",
+      "type": "package",
+      "path": "mysqlconnector/2.2.0-rc.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net7.0/MySqlConnector.dll",
+        "lib/net7.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.2.0-rc.2.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -204,6 +240,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MySqlConnector >= 2.2.0-rc.2",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -244,6 +281,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.0-rc.2, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

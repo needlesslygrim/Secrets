@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8KqSvDUzZ7PkPN/tDl0TdFU4XAQ4HspU4GBPDvUdRXBmazVHRPRGIR9bWygVvyOBIwEiZFPB6Rmy5NGBlYnbqg==",
+  "dgSpecHash": "t7nyGqXoCI273RNComwhcovcWDzc9t+8Flz+EGS63BOgBl44A2XO3+YOTtK5ubNS4ReysR3ACZ/73abf790Puw==",
   "success": true,
   "projectFilePath": "/home/erickth/Documents/Code/CSharp/Secrets/Secrets.API/Secrets.API.csproj",
   "expectedPackageFiles": [
     "/home/erickth/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/erickth/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/erickth/.nuget/packages/mysqlconnector/2.2.0-rc.2/mysqlconnector.2.2.0-rc.2.nupkg.sha512",
     "/home/erickth/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/home/erickth/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/home/erickth/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

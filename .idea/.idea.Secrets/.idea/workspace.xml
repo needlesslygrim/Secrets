@@ -3,8 +3,55 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c383f0c-1909-4335-bd7a-82e5ace5f37a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/Secrets.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/Secrets.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/Debug/net6.0/Secrets.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/Debug/net6.0/Secrets.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/Debug/net6.0/Secrets.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/Debug/net6.0/Secrets.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/Secrets.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/Secrets.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/Pages/FetchSecret.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Pages/FetchSecret.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/Pages/InputSecret.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Pages/InputSecret.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/Secrets.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Secrets.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/obj/Debug/net6.0/Secrets.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/obj/Debug/net6.0/Secrets.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4147c69c491144778e0ce7a35bee380835490/4e/0a8e21a5/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8288a260655e41aca396989bad1f6ccd9ec400/33/2eff7db2/Int16.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="s2ihpafn" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GyFD002lLDBqlnzmkolwmm7jqg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -70,4 +117,21 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c383f0c-1909-4335-bd7a-82e5ace5f37a" name="Changes" comment="" />
+      <created>1667352792927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667352792927</updated>
+      <workItem from="1667352796241" duration="4784000" />
+      <workItem from="1667358006509" duration="177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
 </project>
