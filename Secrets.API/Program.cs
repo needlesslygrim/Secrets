@@ -28,11 +28,54 @@ _app.MapGet("/secrets/backup-data/{date}/{favouriteDigit}/{favouriteLetter}", as
 	return await ReadDb(_command);
 });
 
-app.UseHttpsRedirection();
+_app.MapPost("/secrets", async (SecretRecord record) =>
+{
+	MySqlConnection _connection = new MySqlConnection(_connectionString);
+	await _connection.OpenAsync();
 
-app.UseAuthorization();
+	await using MySqlCommand _command = _connection.CreateCommand();
+	_command.CommandText = @"INSERT INTO Secrets.prod (`Passphrase`, `Secret`, `BackupDate`, `FavouriteLetter`, `FavouriteNum`) VALUES (@passphrase, @secret, @backupdate, @favouriteletter, @favouritenum);";
 
-app.MapControllers();
+
+	_command.Parameters.Add(new MySqlParameter
+	{
+		ParameterName = "@passphrase",
+		DbType = DbType.String,
+		Value = record.Passphrase,
+	});
+
+	_command.Parameters.Add(new MySqlParameter
+	{
+		ParameterName = "@secret",
+		DbType = DbType.String,
+		Value = record.Secret,
+	});
+
+	_command.Parameters.Add(new MySqlParameter
+	{
+		ParameterName = "@backupdate",
+		DbType = DbType.Date,
+		Value = record.BackupDate,
+	});
+
+	_command.Parameters.Add(new MySqlParameter
+	{
+		ParameterName = "@favouriteletter",
+		DbType = DbType.StringFixedLength,
+		Value = record.FavouriteLetter,
+	});
+
+	_command.Parameters.Add(new MySqlParameter
+	{
+		ParameterName = "@favouritenum",
+		DbType = DbType.Int16,
+		Value = record.FavouriteNum,
+	});
+
+	await _command.ExecuteNonQueryAsync();
+
+	return Results.Created($"/secrets/make/{record.Passphrase}", record);
+});
 
 async Task<IResult> ReadDb(MySqlCommand command)
 {
