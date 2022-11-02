@@ -77,6 +77,15 @@ _app.MapPost("/secrets", async (SecretRecord record) =>
 	return Results.Created($"/secrets/make/{record.Passphrase}", record);
 });
 
+_app.MapDelete("/secrets/{passphrase}", async (string passphrase) =>
+{
+	MySqlConnection _connection = new MySqlConnection(_connectionString);
+	await _connection.OpenAsync();
+	
+	MySqlCommand _command = new MySqlCommand($"DELETE FROM Secrets.prod WHERE `prod`.Passphrase = '{passphrase}'", _connection);
+	await _command.ExecuteNonQueryAsync();
+	return Results.NotFound();
+});
 async Task<IResult> ReadDb(MySqlCommand command)
 {
 	MySqlDataReader _reader = await command.ExecuteReaderAsync();
