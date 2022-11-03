@@ -1,5 +1,4 @@
 using System.Data;
-using System.Text.Json;
 using Secrets.API.Models;
 using MySqlConnector;
 
@@ -86,6 +85,7 @@ _app.MapDelete("/secrets/{passphrase}", async (string passphrase) =>
 	await _command.ExecuteNonQueryAsync();
 	return Results.NotFound();
 });
+
 async Task<IResult> ReadDb(MySqlCommand command)
 {
 	MySqlDataReader _reader = await command.ExecuteReaderAsync();
