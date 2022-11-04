@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9c383f0c-1909-4335-bd7a-82e5ace5f37a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secrets.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/Pages/InputSecret.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Pages/InputSecret.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Secrets.Web/Pages/ManageSecret.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Pages/ManageSecret.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Secrets.API">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Secrets.Web">
     <configuration name="Secrets.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Secrets.API/Secrets.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -131,7 +132,9 @@
       <workItem from="1667433609621" duration="1175000" />
       <workItem from="1667438904470" duration="902000" />
       <workItem from="1667439826354" duration="3077000" />
-      <workItem from="1667473298425" duration="2817000" />
+      <workItem from="1667473298425" duration="3473000" />
+      <workItem from="1667531141845" duration="2752000" />
+      <workItem from="1667540562272" duration="4390000" />
     </task>
     <servers />
   </component>
