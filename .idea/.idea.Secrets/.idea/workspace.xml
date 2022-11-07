@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c383f0c-1909-4335-bd7a-82e5ace5f37a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Secrets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secrets.Web/Pages/InputSecret.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Pages/InputSecret.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Secrets.Web/Pages/ManageSecret.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Secrets.Web/Pages/ManageSecret.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,13 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4147c69c491144778e0ce7a35bee380835490/c1/013bf9c6/02000010pdb10.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/af66d349afe645a9a8bc8bc132a8295720488/33/e600dcbc/0200000Dpdb40.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4147c69c491144778e0ce7a35bee380835490/4e/0a8e21a5/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8288a260655e41aca396989bad1f6ccd9ec400/33/2eff7db2/Int16.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1aedf3abb059adfbfdfe527de5fe2eb60e15b6e1ea5cf8c3e23212bd4e7e641/NavLink.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58f01ef94b1274f3aa342db815cc6395db8b3d35dbf69cd52bb2c3efa5cb98/NavigationManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cff4d35895d3db30db86a0ec21297ac77589b961f6e219dede5a24aff0bb3b8d/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="s2ihpafn" />
@@ -135,6 +139,7 @@
       <workItem from="1667473298425" duration="3473000" />
       <workItem from="1667531141845" duration="2752000" />
       <workItem from="1667540562272" duration="4390000" />
+      <workItem from="1667821529639" duration="754000" />
     </task>
     <servers />
   </component>
